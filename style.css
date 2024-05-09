@@ -1,0 +1,23 @@
+.navbar-brand {
+    font-family: 'Georgia', serif;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #45a1ff;
+    color: #000000;
+  }
+  .card {
+    transition: box-shadow 0.3s; /* Přidáme přechodový efekt */
+    height: 300px; /* Nastavíme stejnou výšku pro všechny karty */
+  }
+
+  .card:hover {
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3); /* Přidáme stínový efekt po najetí myší */
+  }
+
+  .card-img-top {
+    max-height: 100%; /* Nastavíme maximální výšku obrázku na 100% výšky karty */
+    object-fit: cover; /* Zajistí, že obrázek vyplní celý prostor bez deformace */
+  }
