@@ -1,5 +1,5 @@
 <footer class="footer  py-3 bg-dark" style="position: 'fixed'; bottom: 0; width: '100%';">
-    <div class="container text-center">
+    <div class="container text-center info">
         <p class="footer-brand text-light" href="#">
             Adresa: Olbramovice 203, 259 01 Votice <br>
             Napište nám: info@Risingsuncarmarket.cz <br>

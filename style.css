@@ -10,7 +10,8 @@
   }
   .card {
     transition: box-shadow 0.3s; /* Přidáme přechodový efekt */
-    height: 300px; /* Nastavíme stejnou výšku pro všechny karty */
+    height: 350px; /* Nastavíme stejnou výšku pro všechny karty */
+    width: 300px
   }
 
   .card:hover {
@@ -21,5 +22,17 @@
     max-height: 100%; /* Nastavíme maximální výšku obrázku na 100% výšky karty */
     object-fit: cover; /* Zajistí, že obrázek vyplní celý prostor bez deformace */
   }
-
+  button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999; /* Ensure button is on top of other content */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
   

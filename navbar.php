@@ -18,8 +18,8 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="login.php">Login</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                    <li class="button">
+                        <a class="nav-link active scrollButton"  aria-current="page" href="#">About Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Services</a>

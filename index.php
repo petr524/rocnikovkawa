@@ -18,6 +18,7 @@ include 'navbar.php';
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/74f0e93f1a.js" crossorigin="anonymous"></script>
 
     <h1 class="h1">Vítejte v našem autobazaru</h1>
     <p class="lead">
@@ -30,13 +31,31 @@ include 'navbar.php';
         automobil. Vítejte v našem autobazaru, kde se vaše automobilové sny stávají skutečností.
     </p>
 
-    <h2 class="font-family-serif">Poskytujeme:</h2>
-    <ul class="list-group">
-        <li class="list-group-item">prodlouženou záruku referentských vozů Škoda 60 měsíců/100 tisíc km,</li>
-        <li class="list-group-item">prodlouženou záruku Škoda Plus (Škoda se stářím 2-5 let),</li>
-        <li class="list-group-item">prodlouženou záruku Das WeltAuto pro značky Volkswagen, Audi, Seat a Honda,</li>
-        <li class="list-group-item">pojištění proti ztrátě hodnoty vozidla DEFEND Gap,</li>
-    </ul>
+    <div class="container-fluid bg-dark text-warning py-4">
+    <h1 class="text-center mb-4">Proč právě autobazar Rising Sun Car Market?</h1>
+    <div class="row text-center">
+        <div class="col-md">
+        <i class="fa-solid fa-car fa-2xl"></i>
+            <p>Nabízíme luxusní ověřená auta </p>
+        </div>
+        <div class="col-md">
+        <i class="fa-solid fa-certificate fa-2xl"></i>
+            <p>Kvalitní kontrola a certifikace</p>
+        </div>
+        <div class="col-md">
+        <i class="fa-solid fa-tag fa-2xl"></i>
+            <p>Transparentní ceny a férové podmínky</p>
+        </div>
+        <div class="col-md">
+        <i class="fa-regular fa-clipboard fa-2xl"></i>
+            <p>Pozáruční servis a podpora</p>
+        </div>
+        <div class="col-md">
+        <i class="fa-solid fa-award fa-2xl"></i>
+            <p>Skvělé Recenze a Doporučení</p>
+        </div>
+    </div>
+</div>
 
     <div class="container d-flex justify-content-center align align-items-center">
         <a href="nissan.php" class="card-link">
@@ -50,7 +69,7 @@ include 'navbar.php';
             </div>
         </a>
 
-        <a href="https://www.spsejecna.cz/" class="card-link">
+        <a href="mazda.php" class="card-link">
             <div class="card flex-fill" style="width: 18rem; margin: 10px;">
                 <img src="https://www.levnelpg.cz/wp-content/uploads/2014/07/car-logo-Mazda.jpg" class="card-img-top"
                     alt="Mazda">
@@ -61,7 +80,7 @@ include 'navbar.php';
             </div>
         </a>
 
-        <a href="https://www.spsejecna.cz/" class="card-link">
+        <a href="honda.php" class="card-link">
             <div class="card flex-fill" style="width: 18rem; margin: 10px;">
                 <img src="https://i.pinimg.com/736x/9c/a7/bb/9ca7bb4420b01fa83b7f343bb3e5962f.jpg" class="card-img-top"
                     alt="Honda">
